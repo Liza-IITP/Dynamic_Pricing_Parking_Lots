@@ -82,7 +82,24 @@ Price_t = BasePrice \cdot (1 + \lambda \cdot \text{NormalizedDemand})
 * Dynamic adjustments based on local market context
 
 ---
+** Demand Function (Model 2 & 3)**
+* We assume linear relationships between demand and influencing features:
+* Occupancy rate directly increases demand
+* Queue length increases urgency
+* Traffic reduces demand (due to accessibility)
+* Special days increase demand
+* Vehicle types are weighted: cars & trucks have more impact
+* Occupancy trend captures temporal increase/decrease
+* Spatial competition is modeled via Haversine and relative pricing
 
+🔹 Price Adjustment
+-Model 1: linear additive pricing (α-estimate)
+-Model 2: demand-weighted exponential model with normalization
+-Model 3: demand price adjusted using local competition (±1 if cheaper/expensive)
+
+## Conclusion
+
+These models collectively demonstrate an incremental progression from simple to smart pricing mechanisms. The approach integrates economic reasoning, location context, and real-time data to create an adaptive and efficient parking pricing engine.
 ## 🚀 Tech Stack
 
 * **Languages:** Python
@@ -98,7 +115,3 @@ Price_t = BasePrice \cdot (1 + \lambda \cdot \text{NormalizedDemand})
   * Haversine formula for spatial analysis
 
 ---
-
-## Conclusion
-
-These models collectively demonstrate an incremental progression from simple to smart pricing mechanisms. The approach integrates economic reasoning, location context, and real-time data to create an adaptive and efficient parking pricing engine.
