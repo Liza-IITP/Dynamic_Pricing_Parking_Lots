@@ -93,9 +93,9 @@ Price_t = BasePrice \cdot (1 + \lambda \cdot \text{NormalizedDemand})
 * Spatial competition is modeled via Haversine and relative pricing
 
 🔹 Price Adjustment
--Model 1: linear additive pricing (α-estimate)
--Model 2: demand-weighted exponential model with normalization
--Model 3: demand price adjusted using local competition (±1 if cheaper/expensive)
+* Model 1: linear additive pricing (α-estimate)
+* Model 2: demand-weighted exponential model with normalization
+* Model 3: demand price adjusted using local competition (±1 if cheaper/expensive)
 
 ## Conclusion
 
