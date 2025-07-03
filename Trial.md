@@ -46,10 +46,12 @@ Three pricing models were considered in this trial:
 - Inspired by simple demand-based economics.
 - Simulates price evolution using a fixed base price and a parameter `α` that captures the influence of previous occupancy on price delta.
 - `α` was estimated using a linear regression formula (computed from scratch using numpy).
+![alt-img](md-1_trial.png)
 
 **Model 2: Fluctuation-Based Daily Pricing**
 - Calculates price based on daily occupancy range (max - min) to capture volatility in demand.
 - Provides a responsive pricing model that penalizes unstable days with larger price jumps.
+![alt-img](md-2_trial.png)
 
 Technology Stack
 ----------------
