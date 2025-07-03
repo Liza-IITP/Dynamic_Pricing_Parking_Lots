@@ -96,7 +96,7 @@ Price_t = BasePrice \cdot (1 + \lambda \cdot \text{NormalizedDemand})
 * Model 1: linear additive pricing (α-estimate)
 * Model 2: demand-weighted exponential model with normalization
 * Model 3: demand price adjusted using local competition (±1 if cheaper/expensive)
-
+![alt-img](Architecture.png)
 ## Conclusion
 ![alt-img](md-1_trial.png)
 ![alt-img](md-2_trial.png)
