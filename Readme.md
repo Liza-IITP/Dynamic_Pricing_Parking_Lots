@@ -99,15 +99,6 @@ Price_t = BasePrice \cdot (1 + \lambda \cdot \text{NormalizedDemand})
 
 ---
 
-## 📄 Output Files
-
-* `parking_stream.csv` for Model 1
-* `parking_stream_model2.csv` for Model 2
-* `parking_stream_model3.csv` for Model 3 (with all pricing columns and competitive logic)
-
----
-
-
 ## Conclusion
 
 These models collectively demonstrate an incremental progression from simple to smart pricing mechanisms. The approach integrates economic reasoning, location context, and real-time data to create an adaptive and efficient parking pricing engine.
