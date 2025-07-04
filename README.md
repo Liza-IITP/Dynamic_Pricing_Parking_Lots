@@ -102,6 +102,7 @@ Price_t = BasePrice \cdot (1 + \lambda \cdot \text{NormalizedDemand})
 ![alt-img](md-2_trial.png)
 ![alt-img](model_2.png)
 ![alt-img](model_3.png)
+( since the data was available for just one spot , model_2 and model_3 look identical)
 These models collectively demonstrate an incremental progression from simple to smart pricing mechanisms. The approach integrates economic reasoning, location context, and real-time data to create an adaptive and efficient parking pricing engine.
 ## 🚀 Tech Stack
 
